@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
+
+html,body{
+    width: 90%;
+    height: 90%;
+    font-family: "Inconsolata";
+    -webkit-font-smoothing: antialiased;
+    background-image: url("https://logincdn.msauth.net/16.000.28215.2/images/Backgrounds/0.jpg");
+    background-size: cover;
+    background-position:center center ;
+    position: relative;
+    background-attachment: fixed;
+    left: 0;
+    top: 0;
+
+}
+
+h2{
+  padding-top: 30;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+}
+h4{
+  font-size: 24px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+p{
+  width: 100%;
+  text-align: center;
+  font-size: 30;
+  background-color: silver;
+  opacity: 0.3;
+}
+li{
+  width: 100%;
+  background-color: gray;
+  opacity: 0.5;
+  text-align: center;
+
+}
+.product{
+  text-align: left;
+  background-color: green;
+  opacity: 0.9;
+  font-size: 20;
+  font-stretch: auto;
+}
+.view{
+  text-align: left;
+  background-color: gray;
+  opacity: 0.7;
+  line-height: 3;
+}

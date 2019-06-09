@@ -7,12 +7,9 @@ header('Location:login.php?msg=1');
 }
 ini_set('display_errors', 1);
 ?>
-
-
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Home Page | Login</title>
 <link href="css/htmlstyles.css" rel="stylesheet">
 </head>
 
@@ -25,10 +22,10 @@ ini_set('display_errors', 1);
 <section>
 <nav>
 <ul>
-<li><a href="home.php" style="color:white" >HOME</a>: &#127968;</li><p>
+<li><a href="main.php" style="color:white" >HOME</a>: &#127968;</li><p>
 <li><a href="xss.php" style="color:white" >XSS</a><i>: Easy Challange</i></li><p>
 <li><a href="upload.php" style="color:white" >Insecure File Upload:</a><i>: Easy Challange</i></li><p>
-<li><a href="#" style="color:white" >Challenge</a><i>: Easy Challange</i></li><p>
+<li><a href="productmgr.php" style="color:white" >Product Manager</a><i>: FBCTF Challange</i></li><p>
 <li><a href="#" style="color:white" >Challenge</a><i>: Easy Challange</i></li><p>
 <li><a href="#" style="color:white" >Challenge</a><i>: Easy Challange</i></li><p>
 <li><a href="#" style="color:white" >Challenge</a><i>: Easy Challange</i></li><p>

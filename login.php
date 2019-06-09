@@ -4,25 +4,24 @@ session_start();
 include("db_config.php");
 ini_set('display_errors', 1);
 ?>
+<html lang="en">
+<head>
+	<link href="css/htmlstyles.css" rel="stylesheet">
+	<link rel=stylesheet href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Login Page</title>
+</head>
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Login Page with SQL Injection</title>
-
-    <link href="css/htmlstyles.css" rel="stylesheet">
-	</head>
-
-  <body>
-  <div class="container-narrow">
-		
-		<div class="jumbotron">
-			<p class="lead">
-				<h1 style="color:white">Login Panel</h1>
-			</p>
-        </div>
-		
-		<div class="response">
-		<center>
-		<form method="POST" autocomplete="off">
+<body>
+<center>
+<section class="header">
+    <div class="mask">
+        <div class="text-align">
+			<div class="loginheader">
+			<h1>Login Panel</h1>
+			
+			
+            <form method="POST" autocomplete="off">
 			<p style="color:white">
 				Username:  <input type="text" id="uid" placeholder="username" name="uid"><br /></br />
 				Password: <input type="password" id="pass"placeholder="Password"  name="password">
@@ -31,8 +30,13 @@ ini_set('display_errors', 1);
 			<p>
 			<input type="submit" value="Submit"/> 
 			<input type="reset" value="Reset"/>
-			</p>
+			</p></div>
 		</form></center>
+        </div>
+        <a href="#section" class="section"><i class="fa fa-chevron-circle-down"></i></a>
+    </div>
+</section>
+		</center>
         </div>
     
         
@@ -82,17 +86,23 @@ $q = "SELECT * FROM users where username='".$username."' AND password = '".md5($
 
 //}
 ?>
-
 	</div>
 	</div>
-	  
-	  
-	  <div class="footer">
-
+	</div> 
+<section class="section-one" id="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                   <center> <h1>About this project</h1>
+    <p>Project Zero is a simple vulnerable web-application, created for the people who want to learn about CyberSecurity. </p><em>this simple box is very easy to PWN and perfect for classroom training.</em></p>
+    Our target is to use this module to teach school kids/college studends about web application vulnerablilyty. </p>
+    <br></br>
+</i style="color:white">More attack modules will be added soon! As this one is developing by my students it will be slow, if you want to contribute for this Project feel free to send a pull request on github or DM me on twitter <a href="https://twitter.com/anir0y">@anir0y<a></i></center>
+    
+            </div>
       </div>
-
-	</div> <!-- /container -->
-  
+  </div>
+</section>
 </body>
 </html>
-<? include "footer.php"; ?>
+<?php include("footer.php"); ?>
