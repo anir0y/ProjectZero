@@ -13,7 +13,7 @@
 Written by Vampire/p>
 
 This problem does not require any brute force or scanning. </em><p>
-<a href="https://localhost/ch-1">click here</a> to Play!</p>
+<a href="https://localhost/challenge-1">click here</a> to Play!</p>
 </center>
 
 
