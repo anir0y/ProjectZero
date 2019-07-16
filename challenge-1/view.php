@@ -30,7 +30,7 @@ if ($error !== null) {
   echo "<p>Error: " . $error . "</p>";
 }
 ?>
-<form action="/view.php" method="POST" div class="view">
+<form action="/challenge-1/view.php" method="POST" div class="view">
   Name: <input type="text" name="name" /><br />
   Secret: <input type="password" name="secret" /><br />
   <input type="submit" value="View" />
