@@ -1,6 +1,6 @@
 <?php
 
-/*
+
 CREATE TABLE products (
   name char(64),
   secret char(64),
@@ -12,12 +12,12 @@ INSERT INTO products VALUES('messenger', '3d59f7548e1af2151b64135003ce63c0a484c2
 INSERT INTO products VALUES('instagram', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
 INSERT INTO products VALUES('whatsapp', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
 INSERT INTO products VALUES('oculus-rift', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
-*/
+
 error_reporting(0);
 //require_once("config.php"); // DB config
 
 //$db = new mysqli($MYSQL_HOST, $MYSQL_USERNAME, $MYSQL_PASSWORD, $MYSQL_DBNAME);
-$db = new mysqli(localhost,'ch-1dbuser','ch-1dbpass','ch1');
+$db = new mysqli(localhost,'gh0st','gh0st','pmgr');
 if ($db->connect_error) {
   die("Connection failed: " . $db->connect_error);
 }

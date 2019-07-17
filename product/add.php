@@ -54,7 +54,7 @@ if ($error !== null) {
   echo "<p>Error: " . $error . "</p>";
 }
 ?>
-<form action="/challenge-1/add.php" method="POST" div class="product">
+<form action="/product/add.php" method="POST" div class="product">
   Name of your product: <input type="text" name="name" /><br />
   Secret (10+ characters, smallcase, uppercase, number) : <input type="password" name="secret" /><br />
   Description: <input type="text" name="description" /><br />

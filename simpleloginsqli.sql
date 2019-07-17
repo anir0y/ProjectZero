@@ -5,8 +5,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `loginsqli`
 --
-CREATE DATABASE IF NOT EXISTS `loginsqli` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `loginsqli`;
+CREATE DATABASE IF NOT EXISTS `dbs` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `dbs`;
 
 -- --------------------------------------------------------
 
@@ -39,3 +39,23 @@ INSERT INTO `users` (`id`, `username`, `password`, `fname`, `description`) VALUE
 (7, 'frodo', 'f0f8820ee817181d9c6852a097d70d8d', 'frodo', 'Need to go to Mordor. Like right now!'),
 (8, 'hodor', 'a55287e9d0b40429e5a944d10132c93e', 'hodor', 'Hodor'),
 (65, 'rhombus', 'e52848c0eb863d96bc124737116f23a4', 'rambo', 'Im the rambo!! Bwahahaha!');
+
+
+DROP TABLE IF EXISTS `products`;
+CREATE TABLE products (
+  name char(64),
+  secret char(64),
+  description varchar(250)
+);
+
+INSERT INTO products
+VALUES('facebook', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Awesome! You did it');
+INSERT INTO products
+VALUES('messenger', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
+INSERT INTO products
+VALUES('instagram', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
+INSERT INTO products
+VALUES('whatsapp', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
+INSERT INTO products
+VALUES('oculus-rift', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
+
