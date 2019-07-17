@@ -1,6 +1,6 @@
 <?php
 // Create connection
-$con=mysqli_connect("127.0.0.1","dbuser","dbpass","dbname");
+$con=mysqli_connect("mysql","dbuser","dbpass","dbs");
 
 // Check connection
 if (mysqli_connect_errno($con))

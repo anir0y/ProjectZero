@@ -1,0 +1,27 @@
+version: "3.2"
+services:
+  php:
+    build: '.'
+    networks:
+      - mysql
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html/
+  mysql:
+    image: mysql:5.6.40
+    networks:
+      - backend
+    volumes:
+      - ./simpleloginsqli.sql:/docker-entrypoint-initdb.d/dump.sql
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpass
+      - MYSQL_DATABASE=dbs
+      - MYSQL_USER=dbuser
+      - MYSQL_PASSWORD=dbpass
+networks:
+  frontend:
+  backend:
