@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>XSS </title>
-</head>
+<?php include('home.php'); ?>
 <body>
-<?php include "home.php"; ?>
 <div class="xss2" center>
     <?php
 

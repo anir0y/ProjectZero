@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - .:/application
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=gh0st
+      - MYSQL_DATABASE=dbs
+      - MYSQL_USER=root
+      - MYSQL_PASSW0RD=gh0st
+    ports:
+      - "8082:3306"
+  website:
+    container_name: phpCode
+    image: php:7.3-apache
+    build:
+      context: ./
+    volumes:
+      - /Users/anir0y/Documents/Docker/docker_zeroproject:/var/www/html
+    ports:
+      - 80:80
+    depends_on:
+      - mysql

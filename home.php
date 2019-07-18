@@ -1,9 +1,10 @@
 <?php
 ob_start();
 session_start();
-include("db_config.php");
+require_once("db_config.php");
+
 if (!$_SESSION["username"]){
-header('Location:login.php?msg=1');
+	header('Location:login.php?msg=1');
 }
 ini_set('display_errors', 1);
 ?>

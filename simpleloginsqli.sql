@@ -3,7 +3,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- Database: `loginsqli`
+-- Database: `dbs`
 --
 CREATE DATABASE IF NOT EXISTS `dbs` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `dbs`;

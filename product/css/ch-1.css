@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
 
 html,body{
-    width: 90%;
-    height: 90%;
+    width: auto;
+    height: auto;
     font-family: "Inconsolata";
     -webkit-font-smoothing: antialiased;
-    background-image: url("https://logincdn.msauth.net/16.000.28215.2/images/Backgrounds/0.jpg");
+    background-image: url("https://wallpaperplay.com/walls/full/5/8/5/76997.jpg");
     background-size: cover;
     background-position:center center ;
     position: relative;
@@ -19,7 +19,7 @@ h2{
   padding-top: 30;
   text-align: center;
   font-size: 32px;
-  color: white;
+  color:black;
   font-weight: 400;
 }
 h4{
@@ -31,26 +31,27 @@ p{
   width: 100%;
   text-align: center;
   font-size: 30;
-  background-color: silver;
-  opacity: 0.3;
+  color: white;
 }
 li{
   width: 100%;
-  background-color: gray;
-  opacity: 0.5;
   text-align: center;
+  color: blue;
+
+}
+li a{
+  width: 100%;
+  text-align: center;
+  color: blue;
 
 }
 .product{
   text-align: left;
-  background-color: green;
-  opacity: 0.9;
   font-size: 20;
   font-stretch: auto;
 }
 .view{
   text-align: left;
-  background-color: gray;
   opacity: 0.7;
   line-height: 3;
 }

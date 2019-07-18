@@ -5,6 +5,7 @@
   </head>
   <body>
     <h2>Welcome to products manager!</h2>
+    <h3><a href="../home.php">🔙</a><h3>
     <p>
       Links:
       <ul>

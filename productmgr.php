@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>Product Manager </title>
-</head>
-<body>
-<?php include "home.php"; ?>
+<?php include('home.php'); ?>
+<title>Product manager</title>
 <div class="xss2" center>
 <h2><center>About this challenge:(FBCTF 2019) </h2></center>
 <p><em>Come play with our products manager application!

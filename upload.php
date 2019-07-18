@@ -1,10 +1,4 @@
-<DOCTYPE HTML>
-<html>
-<head>
-<title>Inscure Upload</title>
-</head>
-<body>
-<?php include "home.php" ; ?>
+<?php include('home.php'); ?>
 <div class=fupload>
 <center>
 <h1>Upload your Secret!</h1>
