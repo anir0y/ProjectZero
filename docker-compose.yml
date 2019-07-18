@@ -1,4 +1,4 @@
-version: '2'
+version: '3.2'
 
 services:
   mysql:
@@ -13,16 +13,15 @@ services:
       - MYSQL_DATABASE=dbs
       - MYSQL_USER=root
       - MYSQL_PASSW0RD=gh0st
-    ports:
-      - "8082:3306"
+    
   website:
     container_name: phpCode
     image: php:7.3-apache
     build:
       context: ./
     volumes:
-      - /Users/anir0y/Documents/Docker/docker_zeroproject:/var/www/html
+      - ./:/var/www/html
     ports:
-      - 80:80
+      - 1337:80
     depends_on:
       - mysql
