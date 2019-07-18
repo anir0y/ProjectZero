@@ -19,7 +19,7 @@ This project is designed for classroom training.
     #php #mysql #owasp
 
 ### intrested enough? 
-[Learn More](https://anir0y.github.io/enroll)
+[Learn More](https://anir0y.github.io/class/static/enroll/)
 ### Somehing to share? #send a Pull req :) 
 
     together we can make it happen!
