@@ -1,4 +1,4 @@
-# ProjectZero
+# ProjectZero [![CodeFactor](https://www.codefactor.io/repository/github/anir0y/projectzero/badge)](https://www.codefactor.io/repository/github/anir0y/projectzero)
 ---
 ## Introduction
     Project Zero is not DVWA
