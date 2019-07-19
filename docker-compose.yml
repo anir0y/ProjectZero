@@ -13,7 +13,6 @@ services:
       - MYSQL_DATABASE=dbs
       - MYSQL_USER=root
       - MYSQL_PASSW0RD=gh0st
-    
   website:
     container_name: phpCode
     image: php:7.3-apache
