@@ -1,24 +1,27 @@
 <?php include('home.php'); ?>
 <body>
 <div class="xss2" center>
-    <?php
-
-   if(isset($_GET['q'])) {
-        $query = $_GET['q'];
-            print $query;
-        }
-     else {
-        print '?q=<XSS>';
-    }
-
-    ?>
-<h2><center>This is a simple XSS challenge! </h2></center>
-<p><em>wanna learn more about Cross Site Scripting??</em><p>
-<a href="https://brutelogic.com.br/blog/xss101/">click here</a> to learn more about XSS attack!</p> 
-</center>
-
-
-
-</body>
-</html>
+  <h2>Hello, <?php
+  if  (isset($_POST['name']) && !empty($_POST['name']))
+      echo $_POST['name']; // To Fix This Need's to use htmlspecialchars function
+  else
+      echo 'User';
+  ?>! </h2>
+  <div class="container container-fluid">
+      <div class="row">
+          <div class="col"></div>
+          <div class="col">
+              <form  method="POST">
+                  <label class="sr-only" for="input_name">Input Username:</label>
+                  <div class="input-group">
+                      <input type="text" class="form-control" name="name" id="input_name" placeholder="Username">
+                      <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="submit">Hello!</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <div class="col"></div>
+      </div>
+  </div>
 <?php include "footer.php"; ?>

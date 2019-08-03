@@ -24,12 +24,10 @@ ini_set('display_errors', 1);
 <nav>
 <ul>
 <li><a href="main.php" style="color:white" >HOME</a>: &#127968;</li><p>
-<li><a href="xss.php" style="color:white" >XSS</a><i>: Easy Challange</i></li><p>
+<li><a href="xss.php" style="color:white" >XSS</a><i>: Reflected XSS</i></li><p>
 <li><a href="upload.php" style="color:white" >Insecure File Upload:</a><i>: Easy Challange</i></li><p>
 <li><a href="productmgr.php" style="color:white" >Product Manager</a><i>: FBCTF Challange</i></li><p>
-<li><a href="#" style="color:white" >Challenge</a><i>: Easy Challange</i></li><p>
-<li><a href="#" style="color:white" >Challenge</a><i>: Easy Challange</i></li><p>
-<li><a href="#" style="color:white" >Challenge</a><i>: Easy Challange</i></li><p>
+
 <div class=logout>
 <li><a href="logout.php" style="color:white">Logout</a></li></div>
 </ul>

@@ -17,7 +17,7 @@ error_reporting(0);
 //require_once("config.php"); // DB config
 
 //$db = new mysqli($MYSQL_HOST, $MYSQL_USERNAME, $MYSQL_PASSWORD, $MYSQL_DBNAME);
-$db = new mysqli(mysql,'root','gh0st','dbs');
+$db = new mysqli(localhost,'gh0st','gh0st','dbs');
 if ($db->connect_error) {
   die("Connection failed: " . $db->connect_error);
 }
