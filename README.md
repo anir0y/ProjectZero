@@ -1,6 +1,6 @@
 # ProjectZero [![CodeFactor](https://www.codefactor.io/repository/github/anir0y/projectzero/badge)](https://www.codefactor.io/repository/github/anir0y/projectzero)
 
-## Demo : https://lab.hackerinside.xyz/
+## Test it : [lab Link](https://lab.vlab.space)
 ---
 ## Introduction
     Project Zero is not DVWA
