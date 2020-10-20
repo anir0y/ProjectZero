@@ -2,17 +2,10 @@
 
 html,body{
 
-	width: 100%;
-    height: 100%;
-	background-image: url("/img/hero.jpg");
-	background-size: cover;
-	background-position:center center ;
-	position: relative;
-	background-attachment: fixed;
-	left: 0;
-	top: 0;
-    font-family: "Inconsolata";
-    -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+  font-family: "Inconsolata";
+  -webkit-font-smoothing: antialiased;
 
 }
 h1{
