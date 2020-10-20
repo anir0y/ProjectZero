@@ -26,19 +26,16 @@ h4{
   margin-bottom: 50px;
   font-weight: 400;
 }
-
-
-
-.header{
-  width: 100%;
-  height: 100%;
-  background-image: url("https://ik.imagekit.io/anir0y/hero_hPWY7eAks.jpg");
-  background-size: cover;
-  background-position:center center ;
-  position: relative;
-  background-attachment: fixed;
-  left: 0;
-  top: 0;
+.img {
+  background-image: url(https://ik.imagekit.io/anir0y/hero_hPWY7eAks.jpg); 
+}
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+  .img {
+    background-image: url(https://logincdn.msauth.net/shared/1.0/content/images/backgrounds/2_bc3d32a696895f78c19df6c717586a5d.svg);
+  }
+}
 
   .mask{
     position: absolute;
