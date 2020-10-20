@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 ?>
 <html lang="en">
 <head>
-	<link href="css/htmlstyles.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet">
 	<link rel=stylesheet href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Login Page</title>
