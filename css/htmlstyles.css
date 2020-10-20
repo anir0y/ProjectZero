@@ -32,7 +32,7 @@ h4{
 .header{
   width: 100%;
   height: 100%;
-  background-image: url("/img/hero.jpg");
+  background-image: url("https://raw.githubusercontent.com/anir0y/ProjectZero/master/img/hero.jpg");
   background-size: cover;
   background-position:center center ;
   position: relative;
