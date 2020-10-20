@@ -1,16 +1,26 @@
 <?php include "home.php"; ?>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Dashboard</title>
-<link href="css/dashboard.css" rel=stylesheet>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/home.css">
+    
 </head>
 <body>
-<center><h1>ALPHA RELEASE OF 'PROJECT ZERO'!</h1></center>
-<hr style="color:blue"></hr>
-<h3>Send us your feedback and suggestions here:</h3>
-<br></br>
+    <div class="vbody">
+        <h3>Welcome <?php echo $_SESSION["username"]; ?></h3>
+        <pre>
+            This is dev code, feel free to send PR to <a href="https://github.com/anir0y/projectzero">GitHub</a>
 
+
+        </pre>
+
+
+
+    </div>
 </body>
 </html>
+
 <?php include("footer.php"); ?>

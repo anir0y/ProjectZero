@@ -3,10 +3,10 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- Database: `dbs`
+-- Database: `arishtidb`
 --
-CREATE DATABASE IF NOT EXISTS `dbs` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `dbs`;
+CREATE DATABASE IF NOT EXISTS `arishtidb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `arishtidb`;
 
 -- --------------------------------------------------------
 
@@ -58,4 +58,3 @@ INSERT INTO products
 VALUES('whatsapp', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
 INSERT INTO products
 VALUES('oculus-rift', '3d59f7548e1af2151b64135003ce63c0a484c26b9b8b166a7b1c1805ec34b00a', 'Darn! So close');
-

@@ -9,10 +9,10 @@ services:
       - .:/application
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=gh0st
-      - MYSQL_DATABASE=dbs
+      - MYSQL_ROOT_PASSWORD='~xn*Kv!2pc{TY!tV'
+      - MYSQL_DATABASE=arishtidb
       - MYSQL_USER=root
-      - MYSQL_PASSW0RD=gh0st
+      - MYSQL_PASSW0RD='~xn*Kv!2pc{TY!tV'
   website:
     container_name: phpCode
     image: php:7.3-apache
