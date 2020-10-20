@@ -2,6 +2,7 @@
 ob_start();
 session_start();
 include("db_config.php");
+include("header.php");
 ini_set('display_errors', 1);
 ?>
 <html lang="en">

@@ -1,4 +1,5 @@
-<?php include('home.php'); ?>
+<?php include('home.php');  
+include("header.php"); ?>
 <title>Product manager</title>
 <div class="xss2" center>
 <h2><center>About this challenge:(FBCTF 2019) </h2></center>

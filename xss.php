@@ -1,4 +1,4 @@
-<?php include('home.php'); ?>
+<?php include('home.php');  ?>
 <body>
 <div class="xss2" center>
   <h2>Hello, <?php

@@ -2,6 +2,7 @@
 ob_start();
 session_start();
 require_once("db_config.php");
+include("header.php");
 
 if (!$_SESSION["username"]){
 	header('Location:login.php?msg=1');
