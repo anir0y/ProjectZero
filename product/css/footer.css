@@ -1,0 +1,19 @@
+.footer{
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color:#26272b;
+  padding:4px 0 10px;
+  font-size:15px;
+  line-height:24px;
+}
+
+.footer p{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  background-color: 26272b ;
+}
+

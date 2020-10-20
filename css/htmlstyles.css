@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
+
+html,body{
+    width: auto;
+    height: 100%;
+    font-family: "Inconsolata";
+    -webkit-font-smoothing: antialiased;
+    background-color: #E9E7E7;
+
+}
+h1{
+  color:#F5A623;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 0;
+  font-size: 32px;
+}
+
+h2{
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+}
+h4{
+  font-size: 24px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+
+
+.header{
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/hero.jpg");
+  background-size: cover;
+  background-position:center center ;
+  position: relative;
+  background-attachment: fixed;
+  left: 0;
+  top: 0;
+
+  .mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(#000,.8);
+
+    .text-align{
+      position: relative;
+      display: inline-block;
+      padding: 0px 20px;
+      text-align: center;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform:  translate(-50%,-50%);
+    }
+  }
+
+  a{
+    color: #F5A623;
+    font-size: 24px;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    -webkit-transform:  translate(-50%,0);
+    -webkit-transition: color 300ms ease-in-out;
+    -o-transition:  color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+    &:hover,&:active,&:focus{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.section-one{
+  padding-top: 50px;
+  position: relative;
+  padding-bottom: 50px;
+  min-height: 500px;
+
+  a{
+    color:#2D2E31;
+    font-size: 24px;
+    bottom: 20%;
+    -webkit-transition: color 300ms ease-in-out;
+    -o-transition:  color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+    &:hover,&:active,&:focus{
+      text-decoration: none;
+      color: #F5A623;
+    }
+  }
+}
+
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom:20px;
+}
+.jumbotron {
+  padding-top: 2vh;
+  margin-bottom:auto;
+  font-size: 21px;
+  background-color: #166fe5;
+  block-size: 13vh;
+}
+
+.jumbotron {
+  text-align: right;
+  padding-right: 4vh;
+  border-bottom: solid 2vh whitesmoke;
+}
+
+.jumbotron p {
+  line-height: 1.4;
+}
+
+nav { 
+  float: left;
+  width:auto;
+  height:auto;
+  background:#166fe5;
+  padding:20px;
+}
+
+nav ul{
+list-style-type:none;
+padding:0;
+}
+
+.logout{
+    text-align: right;
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+.xss2{
+    text-align: center;
+    float: left;
+    width: 50%;
+    color: black;
+}
+.xss2 h2{
+  color: black;
+}
+.xss2 input {
+  border: solid green .5vh;
+  margin-top: .5vh;
+  margin-bottom: .5vh;
+  font-size: 5vh;
+}
+.fupload{
+    text-align: center;
+    float: left;
+    padding: 50px;
+    width: 50%;
+    background-color: #ccd;
+    color: white;
+}
+.loginheader{
+  position: relative;
+  top:40vh;
+  margin-left: 5vh;
+  text-align: left;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  text-align: center;
+  background-color: none;
+  text-align: center;
+  color: white;
+}
+.button {
+  background-color: #166fe5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
